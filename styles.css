@@ -114,10 +114,10 @@ button.youtube {
   font-weight: bold;
 }
 
-p::before {
+p.comments::before {
   content: open-quote;
 }
-p::after {
+p.comments::after {
   content: close-quote;
 }
 
@@ -156,4 +156,28 @@ h3,
 .locations {
   font-weight: normal;
   margin-left: 1em;
+}
+
+.cards {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.london,
+.cardiff,
+.glasgow {
+  width: 300px;
+  height: 500px;
+  border: black solid 2px;
+  text-align: center;
+}
+
+img.london,
+img.cardiff,
+img.glasgow {
+  width: 300px;
+  height: 200px;
 }
