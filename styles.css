@@ -26,8 +26,9 @@ menu ul li {
 
 h2 {
   font-size: 2em;
-  color: rgb(0, 119, 128));
+  color: rgb(0, 119, 128);
   font-family: sans-serif;
+  margin-top: 0.5em;
 }
 
 main {
@@ -54,9 +55,10 @@ button.membership {
   margin-bottom: 50px;
   color: darkorange;
   background-color: white;
-  border: darkorange solid 1px;
+  border: darkorange solid 2px;
   border-radius: 10px;
   padding: 1em;
+  font-weight: bold;
 }
 
 .instagram,
@@ -83,6 +85,24 @@ button.facebook {
 
 button.youtube {
   background-color: red;
+}
+
+.testimonials {
+  padding-top: 1em;
+}
+
+.comments {
+  margin-left: 1em;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p::before {
+  content: open-quote;
+}
+p::after {
+  content: close-quote;
 }
 
 footer {
