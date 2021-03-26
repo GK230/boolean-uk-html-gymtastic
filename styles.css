@@ -160,6 +160,7 @@ h3,
 
 .cards {
   margin-top: 2em;
+  padding-top: 2em;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -171,8 +172,8 @@ h3,
 .glasgow {
   width: 300px;
   height: 500px;
-  border: black solid 2px;
   text-align: center;
+  padding-bottom: 2em;
 }
 
 img.london,
@@ -180,4 +181,8 @@ img.cardiff,
 img.glasgow {
   width: 300px;
   height: 200px;
+}
+
+.card-title {
+  margin-top: 0.5em;
 }
