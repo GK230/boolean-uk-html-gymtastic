@@ -45,6 +45,39 @@ p {
   color: rgb(48, 47, 47);
 }
 
-.about-section {
-  width: 650px;
+span {
+  color: rgb(0, 119, 128);
+}
+
+button.membership {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: darkorange;
+  background-color: white;
+  border: darkorange solid 1px;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.instagram,
+.facebook,
+.youtube {
+  color: white;
+  padding: 1em;
+  width: 10em;
+  margin-right: 2em;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+button.instagram {
+  background-color: purple;
+}
+
+button.facebook {
+  background-color: blue;
+}
+
+button.youtube {
+  background-color: red;
 }
