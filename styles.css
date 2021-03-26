@@ -12,6 +12,18 @@ menu ul {
   padding: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: black;
+}
+
+a :visited {
+  color: fuchsia;
+}
+
 h1 {
   display: inline;
   font-size: 1.5em;
@@ -37,6 +49,10 @@ main {
 
 .main-section {
   margin-left: 75px;
+}
+
+.about-section {
+  width: 40em;
 }
 
 p {
@@ -94,7 +110,7 @@ button.youtube {
 .comments {
   margin-left: 1em;
   font-family: sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 
