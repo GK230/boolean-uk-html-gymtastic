@@ -52,13 +52,13 @@ main {
 }
 
 .about-section {
-  width: 40em;
+  width: 70em;
 }
 
 p {
   margin-top: 25px;
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   color: rgb(48, 47, 47);
 }
 
@@ -89,6 +89,7 @@ button.membership {
   font-size: 1em;
   font-weight: bold;
   border: none;
+  margin-bottom: 2em;
 }
 
 button.instagram {
@@ -104,26 +105,35 @@ button.youtube {
 }
 
 .testimonials {
-  padding-top: 1em;
-  background-color: blue;
+  padding-top: 4em;
+  width: 75em;
 }
 
 .comments {
   margin-left: 1em;
   margin-left: 3em;
-  background-color: red;
+  width: 40em;
 }
 
 .comment1,
 .comment2,
 .comment3 {
-  margin-left: 4em;
-  background-color: green;
-  border: black 3px solid;
+  margin-left: 5em;
+  width: 60em;
+  padding: 1.5em;
+  margin-bottom: 3em;
+  height: 7em;
+  border: grey solid 1px;
+  border-radius: 3em;
+  background-color: rgb(230, 227, 227);
 }
 
 .comment2 {
-  background-color: fuchsia;
+  margin-left: 10em;
+}
+
+.comment3 {
+  margin-left: 15em;
 }
 
 .para-comment1,
@@ -131,7 +141,9 @@ button.youtube {
 .para-comment3 {
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
+  margin-left: 7em;
+  margin-top: -2em;
 }
 
 img.fred,
@@ -140,11 +152,47 @@ img.jane {
   border-radius: 50%;
 }
 
-p.comments::before {
-  content: open-quote;
+.name-tag-fred,
+.name-tag-joe,
+.name-tag-jane {
+  margin-left: 0.5em;
+  margin-top: -0.1em;
 }
-p.comments::after {
+
+.fred-comment,
+.joe-comment,
+.jane-comment {
+  margin-top: -8em;
+}
+
+p.para-comment1::before {
+  content: open-quote;
+  font-size: 5em;
+}
+
+p.para-comment2::before {
+  content: open-quote;
+  font-size: 5em;
+}
+
+p.para-comment3::before {
+  content: open-quote;
+  font-size: 5em;
+}
+
+p.para-comment1::after {
   content: close-quote;
+  font-size: 5em;
+}
+
+p.para-comment2::after {
+  content: close-quote;
+  font-size: 5em;
+}
+
+p.para-comment3::after {
+  content: close-quote;
+  font-size: 5em;
 }
 
 footer {
