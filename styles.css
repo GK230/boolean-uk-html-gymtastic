@@ -111,6 +111,11 @@ button.youtube {
   margin-left: 1em;
   font-family: sans-serif;
   font-size: 1em;
+}
+
+p.comment1,
+p.comment2,
+p.comment3 {
   font-weight: bold;
 }
 
