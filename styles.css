@@ -105,18 +105,39 @@ button.youtube {
 
 .testimonials {
   padding-top: 1em;
+  background-color: blue;
 }
 
 .comments {
   margin-left: 1em;
+  margin-left: 3em;
+  background-color: red;
+}
+
+.comment1,
+.comment2,
+.comment3 {
+  margin-left: 4em;
+  background-color: green;
+  border: black 3px solid;
+}
+
+.comment2 {
+  background-color: fuchsia;
+}
+
+.para-comment1,
+.para-comment2,
+.para-comment3 {
+  font-weight: bold;
   font-family: sans-serif;
   font-size: 1em;
 }
 
-p.comment1,
-p.comment2,
-p.comment3 {
-  font-weight: bold;
+img.fred,
+img.joe,
+img.jane {
+  border-radius: 50%;
 }
 
 p.comments::before {
@@ -170,6 +191,7 @@ h3,
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 .london,
@@ -179,6 +201,8 @@ h3,
   height: 500px;
   text-align: center;
   padding-bottom: 2em;
+  border: grey 1px solid;
+  padding: 1em;
 }
 
 img.london,
@@ -190,4 +214,5 @@ img.glasgow {
 
 .card-title {
   margin-top: 0.5em;
+  font-weight: bold;
 }
