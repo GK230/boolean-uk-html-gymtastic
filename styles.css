@@ -55,7 +55,7 @@ main {
   width: 70em;
 }
 
-p {
+p.about-sentence {
   margin-top: 25px;
   font-family: sans-serif;
   font-size: 1.5em;
@@ -246,7 +246,7 @@ h3,
 .cardiff,
 .glasgow {
   width: 300px;
-  height: 500px;
+  height: 400px;
   text-align: center;
   padding-bottom: 2em;
   border: grey 1px solid;
@@ -264,4 +264,5 @@ h3,
 .card-title {
   margin-top: 0.5em;
   font-weight: bold;
+  margin-bottom: 1em;
 }
