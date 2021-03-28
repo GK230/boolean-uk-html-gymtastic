@@ -203,11 +203,12 @@ h3,
   padding-bottom: 2em;
   border: grey 1px solid;
   padding: 1em;
+  box-shadow: 10px 10px 8px #888888;
 }
 
-img.london,
-img.cardiff,
-img.glasgow {
+.photo-london,
+.photo-cardiff,
+.photo-glasgow {
   width: 300px;
   height: 200px;
 }
